@@ -22,7 +22,8 @@
 }
 
 body{
-    font-family: open sans, sans-serif;    
+    font-family: open sans, sans-serif; 
+    letter-spacing: 0.1em;
 }
 
 .center{
@@ -41,12 +42,31 @@ section{
     padding: 30px;
 }
 
-.mb{
-    margin-bottom: 100px;
+.m{
+    margin: 45px;
 }
 
 .social{
     width: 30px;
-    margin: 20px;
+    margin: 10px;
 }
 
+.button {
+    background-color: #e7e7e7; color: black; 
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #69814d;
+    color: white;
+  }
+
+.radius{
+    border-radius: 8px;
+}

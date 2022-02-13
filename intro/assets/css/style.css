@@ -30,23 +30,35 @@ header{
     flex-flow: row;
     justify-content: center;
     align-items: center;
-    margin-bottom: 30px;
 }
 
 body{
-    font-family: open sans, sans-serif;    
+    font-family: open sans, sans-serif;
+    letter-spacing: 0.1em;
 }
 
 .music{
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .social{
     width: 30px;
-    margin: 20px;
+    margin: 10px;
+}
+
+.mb{
+    margin-bottom: 10px;
 }
 
 .center{
     text-align: center;
+}
+
+.txt{
+    font-size: 15px;
+}
+
+.imgtm{
+    
 }

@@ -24,6 +24,7 @@ function validaNome(){
        txtNome.innerHTML = "nome inválido."
        txtNome.style.color = "grey"
        txtNome.style.fontSize = "12px"
+       nomeOk = false
     }else{
         txtNome.innerHTML = "nome válido."
         txtNome.style.color = "green"
@@ -38,7 +39,7 @@ function validaEmail(){
        txtEmail.innerHTML = "e-mail inválido."
        txtEmail.style.color = "grey"
        txtEmail.style.fontSize = "12px"
-
+       emailOk = false 
     }else{
         txtEmail.innerHTML = "e-mail válido."
         txtEmail.style.color = "green"
@@ -69,12 +70,12 @@ function enviar(){
     }
 }
 
-function mapaZoom(){
-    mapa.style.width='410px'
-    mapa.style.height='310px'
+function mapaOp(){
+    mapa.style.opacity="50%"
+    mapa.style.transition="0.3s"
 }
 
 function mapaNormal(){
-    mapa.style.width='400px'
-    mapa.style.height='300px'
+    mapa.style.opacity="1"
+    mapa.style.transition="1"
 }
