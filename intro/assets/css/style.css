@@ -1,0 +1,52 @@
+/*estilo da index*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#menu li{
+    display: inline-block;
+    padding: 20px;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#menu li a:hover{
+    color: #69814d;
+}
+
+header{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+body{
+    font-family: open sans, sans-serif;    
+}
+
+.music{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.social{
+    width: 30px;
+    margin: 20px;
+}
+
+.center{
+    text-align: center;
+}

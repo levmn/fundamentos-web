@@ -1,0 +1,52 @@
+/*estilo da contato*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#menu li{
+    display: inline-block;
+    padding: 20px;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#menu li a:hover{
+    color: #69814d;
+}
+
+body{
+    font-family: open sans, sans-serif;    
+}
+
+.center{
+    text-align: center;
+}
+
+section{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.p-30{
+    padding: 30px;
+}
+
+.mb{
+    margin-bottom: 100px;
+}
+
+.social{
+    width: 30px;
+    margin: 20px;
+}
+
