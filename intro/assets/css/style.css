@@ -1,4 +1,4 @@
-/*estilo da index*/
+/*estilo de index*/
 
 *{
     margin: 0;
@@ -34,7 +34,7 @@ header{
 
 body{
     font-family: open sans, sans-serif;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.1em;     
 }
 
 .music{
@@ -57,8 +57,4 @@ body{
 
 .txt{
     font-size: 15px;
-}
-
-.imgtm{
-    
 }
